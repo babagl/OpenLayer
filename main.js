@@ -1,4 +1,4 @@
-window.onload = init
+// window.onload = init
 
 function init(){
     const map = new ol.Map({
@@ -8,7 +8,8 @@ function init(){
         }),
         layers: [
             new ol.layer.Tile({
-                source: new ol.source.OSM()
+                source: new ol.source.OSM(),
+                
             })
         ],
         target: "js-map"
@@ -16,4 +17,6 @@ function init(){
     })
     
 }
+
+init();
 
