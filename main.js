@@ -3,7 +3,7 @@
 function init(){
     const map = new ol.Map({
         view: new ol.View({
-            center:[0,0],
+            center:[-12080385,756],
             zoom: 2
         }),
         layers: [
